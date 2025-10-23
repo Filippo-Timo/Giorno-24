@@ -1,0 +1,79 @@
+body {
+  font-family: "Indie Flower", cursive;
+  font-weight: 400;
+  font-style: normal;
+  background-color: rgb(102, 102, 102);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 80px 1%;
+}
+
+.postit {
+  width: 350px;
+  height: 300px;
+  margin-bottom: 50px;
+  margin-right: 50px;
+  background-color: violet;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: width 0.1s linear;
+}
+
+h1 {
+  font-size: 3.5em;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 2em;
+}
+
+.postit:nth-of-type(1) {
+  background-color: rgb(249, 250, 200);
+  rotate: -6deg;
+}
+
+.postit:nth-of-type(2) {
+  background-color: rgb(198, 246, 201);
+  rotate: 4deg;
+}
+
+.postit:nth-of-type(3) {
+  background-color: rgb(198, 198, 241);
+  rotate: -8deg;
+}
+
+.postit:nth-of-type(4) {
+  background-color: rgb(198, 244, 199);
+  rotate: 10deg;
+}
+
+.postit:nth-of-type(5) {
+  background-color: rgb(252, 252, 202);
+  rotate: -6deg;
+}
+
+.postit:nth-of-type(6) {
+  background-color: rgb(198, 198, 241);
+  rotate: -9deg;
+}
+
+.postit:nth-of-type(7) {
+  background-color: rgb(250, 251, 201);
+  rotate: -5deg;
+}
+
+.postit:nth-of-type(8) {
+  background-color: rgb(201, 249, 203);
+  rotate: 4deg;
+}
+
+.postit:hover {
+  width: 400px;
+  height: 350px;
+  rotate: 0deg;
+}
